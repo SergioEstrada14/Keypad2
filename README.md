@@ -9,3 +9,5 @@ Estos dispositivos agrupan los pulsadores en filas y columnas formando una matri
 
 
 # ¿Cómo Funciona un Keypad?
+
+Este teclado matricial 4×4 se encuentra formado por la matriz de pulsadores que se encuentran dispuestos en filas (L1, L2, L3 y L4), y las columnas (C1, C2, C3 y C4), esta organización es de acuerdo a reducir el número de pines requeridos para su conexión y programación. Los 16 botones necesitan sólo 8 pines del microcontrolador en lugar de 16 independientes. Para poder leer el botón que fue pulsado es necesario utilizar una técnica de barrido, no sólo leyendo el pin del microcontrolador.
