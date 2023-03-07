@@ -27,7 +27,7 @@ En su aplicación con Arduino o cualquier otra plataforma de microcontroladores,
 
 # Código de ejemplo 
 
-´´´python
+ ```Python
 
 from machine import Pin
 import utime
@@ -68,4 +68,4 @@ while True:
     if key != None:
       print("Botón presionado : "+key)
       utime.sleep(0.3) 
-´´´
+ ```
