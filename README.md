@@ -22,3 +22,50 @@ En su aplicación con Arduino o cualquier otra plataforma de microcontroladores,
 # Simulación 
 ![image](https://user-images.githubusercontent.com/124211869/223578860-3cdaff96-ff08-4043-ba47-aae900f8c902.png)
 
+<br>
+<br>
+
+# Código de ejemplo 
+
+´´´python
+
+from machine import Pin
+import utime
+ 
+
+colm=[1,2,3,4]
+fils=[5,6,7,8]
+ 
+
+for x in range(0,4):
+    fils[x]=Pin(fils[x], Pin.OUT)
+    fils[x].value(1)
+ 
+
+for x in range(0,4):
+   colm[x] = Pin(colm[x], Pin.IN, Pin.PULL_UP)
+ 
+
+key_map=[["D","#","0","*"],\
+         ["C","9","8","7"],\
+         ["B","6","5","4"],\
+         ["A","3","2","1"]]
+ 
+def Keypad4x4Read(cols,rows):
+  for r in rows:
+    r.value(0)
+    result=[cols[0].value(),cols[1].value(),cols[2].value(),cols[3].value()]
+    if min(result)==0:
+      key=key_map[int(rows.index(r))][int(result.index(0))]
+      r.value(1) 
+      return(key)
+    r.value(1)
+ 
+
+print("--- Ready to get user inputs ---")
+while True:
+    key=Keypad4x4Read(colm, fils)
+    if key != None:
+      print("Botón presionado : "+key)
+      utime.sleep(0.3) 
+´´´
