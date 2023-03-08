@@ -51,20 +51,20 @@ En su aplicación con Arduino o cualquier otra plataforma de microcontroladores,
 from machine import Pin
 import utime
  
-
+# Conexion los pines del teclado
 colm=[1,2,3,4]
 fils=[5,6,7,8]
  
-
+# Establecer pin para las filas como salida
 for x in range(0,4):
     fils[x]=Pin(fils[x], Pin.OUT)
     fils[x].value(1)
  
-
+# Establecer columna como entrada
 for x in range(0,4):
    colm[x] = Pin(colm[x], Pin.IN, Pin.PULL_UP)
  
-
+# Crearción de un mapa entre los botones del teclado y los caracteres
 key_map=[["D","#","0","*"],\
          ["C","9","8","7"],\
          ["B","6","5","4"],\
