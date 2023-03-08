@@ -19,6 +19,25 @@ En su aplicación con Arduino o cualquier otra plataforma de microcontroladores,
 <br>
 <br>
 
+# Especificaciones del Keypad
+* Contamos con 16 botones de organización matricial. (4 columnas, 4 filas).
+* Teclado de tipo membranal.
+* Máxima resistencia al agua y al polvo.
+* Cuenta con un autoadhesivo en la parte trasera del teclado.
+* El tiempo de rebote se encuentra en promedio de ≤5 ms.
+* Máximo voltaje de operación: 24V DC.
+* Máxima corriente de operación 30mA
+* Resistencia de aislamiento de 100MΩ (@ 100 V).
+* Voltaje de soporte del dieléctrico: 250 VRMS (@ 60Hz, por 1 min)
+* Expectativa de vida útil : 1.000.000 de operaciones (pulsaciones).
+* Dimensiones del teclado: 69*77mm
+* Cable de cinta plana con longitud de 8.5 cm de largo aprox. (incluido con el conector)
+* Conectores de tipo DuPont hembra de una fila y 8 contactos con separación estándar 0.1″ (equivalente a 2.54mm)
+* Temperatura de operación óptima: 0 a 50 °C
+
+<br>
+<br>
+
 # Simulación 
 ![image](https://user-images.githubusercontent.com/124211869/223578860-3cdaff96-ff08-4043-ba47-aae900f8c902.png)
 
@@ -69,3 +88,9 @@ while True:
       print("Botón presionado : "+key)
       utime.sleep(0.3) 
  ```
+ 
+ 
+ # Resultados 
+ 
+ ![image](https://user-images.githubusercontent.com/124211869/223623341-51640b77-f77e-44e4-ba7a-5751359b654a.png)
+
