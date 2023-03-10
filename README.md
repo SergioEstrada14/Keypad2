@@ -90,7 +90,7 @@ while True:
  ```
  
  
- # Resultados 
+ # Resultados de simulacion 
  
  ![image](https://user-images.githubusercontent.com/124211869/223623341-51640b77-f77e-44e4-ba7a-5751359b654a.png)
 
