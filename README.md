@@ -15,6 +15,11 @@ Este teclado matricial 4×4 se encuentra formado por la matriz de pulsadores que
 <br>
 En su aplicación con Arduino o cualquier otra plataforma de microcontroladores, el sistema de conectividad es simple, contamos con 8 pines digitales en total, además que puede trabajar con microcontroladores de 3.3 V y 5 V sin tener problema alguno. 
 </br>
+<br>
+<br>
+
+![image](https://user-images.githubusercontent.com/124211869/225752447-711b482d-2734-4703-9ab3-46d6c282ad29.png)
+
 
 <br>
 <br>
