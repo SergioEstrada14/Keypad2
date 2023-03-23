@@ -44,6 +44,12 @@ En su aplicación con Arduino o cualquier otra plataforma de microcontroladores,
 <br>
 
 # Simulación 
+
+Simulación: https://wokwi.com/projects/358580157180679169
+
+<br>
+<br>
+
 ![image](https://user-images.githubusercontent.com/124211869/223578860-3cdaff96-ff08-4043-ba47-aae900f8c902.png)
 
 <br>
