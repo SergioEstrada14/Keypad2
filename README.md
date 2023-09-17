@@ -1,4 +1,4 @@
-# KEYPAD 
+# KEYPAD 2.0 clone 
 
 Es un dispositivo que agrupa varios pulsadores y permite controlarlos empleando un número de conductores inferior al que necesitaríamos al usarlos de forma individual. Podemos emplear estos teclados como un controlador para un autómata o un procesador como Arduino.
 
